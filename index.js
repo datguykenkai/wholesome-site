@@ -52,7 +52,7 @@ window.onload = function main() {
         const artists = document.createElement('p');
         artists.innerHTML=a;
         artists.setAttribute("class", "artists");
-        artistTitle.append(artists);
+        artistTitle.after(artists);
     })
     
 
@@ -63,7 +63,7 @@ window.onload = function main() {
         const tags = document.createElement('p');
         tags.innerHTML=t;
         tags.setAttribute("class", "tags");
-        tagsTitle.append(tags);
+        tagsTitle.after(tags);
     })
 
 
