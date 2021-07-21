@@ -45,7 +45,7 @@ window.onload = function main() {
     title.innerHTML=data.info.title;
 
     const artistTitle = document.getElementById('artist-title');
-    artistTitle.innerHTML="Artists";
+    // artistTitle.textContent="Artists";
 
     const artistsArray = data.info.artists;
     artistsArray.forEach(a => {

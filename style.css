@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(206, 204, 211);
+    background-color: rgb(43, 39, 53);
 }
 
 h1 {
@@ -18,22 +18,34 @@ h2, h3 {
 h2 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 40px;
+    padding: 10px 0px;
+    margin: 10px 0px;
 }
 
 h3 {
+    display: block;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 30px;
+    /* background-size: cover;
+    background-color: rgb(93, 90, 107); */
+    border-radius: 10px;
+}
+
+h3 span {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(64, 61, 75);
 }
 
 p {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 20px;
+    color: white;
 }
 
-.tags {
-    display: inline-block;
-    height: 20px;
-    padding: 20px;
+hr {
+    height: 5px;
+    background-color: rgb(194, 206, 212);
 }
 
 .flex-container {
@@ -42,6 +54,8 @@ p {
 
 .flex-child {
     flex: 1;
+    padding: 10px;
+    margin: 10px;
     /* border: 2px solid yellow; */
 }  
 
@@ -52,6 +66,18 @@ p {
 
 .flex-child:nth-child(2) {
     margin-right: 5%;
+}
+
+.tags {
+    display: inline-block;
+    height: 20px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+#tags-title {
+    /* margin: 10px; */
+    padding: 5px;
 }
 
 #cover {
